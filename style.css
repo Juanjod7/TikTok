@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #080808;
+    color: #111111;
+}
+
+
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: #111111;
+    
+    position:sticky;
+    top: 0px;
+
+}
+
+
+.logo img {
+    height: 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #333030;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    outline: none;
+}
+
+.search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #ff3b5c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #1c1c1c;
+ }
+.sidebar {
+    display: grid;
+    justify-items: left;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    position: sticky;
+
+    top: 0px; /* separa la barra lateral de la barra superior */
+    
+    left: 0;
+    height: 10%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.active {
+    color: #ff3b5c;
+}
+
+.nav-item:hover {
+    color: #ff3b5c;
+}
+
+.new-badge {
+    background-color: #ff3b5c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.session-info {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #000000;
+}
+
+.session-info p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.session-info .login-button {
+    margin-top: 10px;
+}
+main {
+
+    
+ 
+
+
+    
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    
+    margin: 15px;
+    padding:30px; /* /* Centra verticalmente */
+    /*height: calc(100vh - 64px); /* Altura total de la ventana menos la altura del header */
+    
+}
+
+#video-container {
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 5fr);
+    gap: 10px;
+    height: auto;
+    background-color: #000000;
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+   
+
+    /*align-items: flex-start;
+    max-width: calc(100% - 250px); /* Deja espacio para la barra lateral */
+   /* padding: 15px;
+    background-color: #121212;*/
+    
+
+}
+
+video {
+    max-width: 100%;
+    
+}
